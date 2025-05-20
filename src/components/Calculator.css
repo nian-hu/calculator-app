@@ -1,0 +1,14 @@
+.calculator {
+  background-color: black;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 12px;
+  justify-content: center;
+}
+
