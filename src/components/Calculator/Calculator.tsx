@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Display } from './Display';
-import { Button } from './Button';
-import { buttons, validNumbers, getButtonClass, formatResult } from './utils';
+import { Display } from '../Display/Display';
+import { Button } from '../Button/Button';
+import { buttons, validNumbers, getButtonClass, formatResult } from '../utils/utils';
 import './Calculator.css';
 
 export const Calculator: React.FC = () => {
